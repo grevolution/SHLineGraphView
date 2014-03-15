@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       	= { "Shan Ul Haq" => "g@grevolution.me" }
 
   s.platform     	= :ios
-  s.source       	= { :git => "https://github.com/grevolution/SHLineGraphView.git", :tag => "1.0.2" }
+  s.source       	= { :git => "https://github.com/grevolution/SHLineGraphView.git", :tag => "1.0.0" }
 
   s.requires_arc	= true
   s.source_files  	= 'SHLineGraphView/SHLineGraphView/*.{h,m}'
