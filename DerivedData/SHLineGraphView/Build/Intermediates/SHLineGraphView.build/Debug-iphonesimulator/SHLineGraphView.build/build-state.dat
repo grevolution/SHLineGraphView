@@ -1,0 +1,420 @@
+TSHLineGraphView
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch.pch SHLineGraphView/SHLineGraphView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.o /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHAppDelegate.o /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/PopoverView.o /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView normal i386
+cCopyStringsFile /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/en.lproj/InfoPlist.strings SHLineGraphView/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/Images.xcassets
+cProcessInfoPlistFile /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/Info.plist /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Info.plist
+cGenerateDSYMFile /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView
+cTouch /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000528224270000000000000176
+t1384260647
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c000000005269B4D000000000000003B5
+t1382659280
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005269B4D400000000000001A0
+t1382659284
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005269B4D50000000000445870
+t1382659285
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005269B4D6000000000088C680
+t1382659286
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005269B4D80000000001DB9910
+t1382659288
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c000000005269B4EE0000000000000AC9
+t1382659310
+s2761
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch.pch
+t1394855279
+s115024
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/PopoverView.o
+t1394855279
+s206308
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHAppDelegate.o
+t1394855279
+s66904
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.LinkFileList
+c000000005323CD6F0000000000000303
+t1394855279
+s771
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o
+t1394855279
+s97160
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.o
+t1394855279
+s3684
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/assetcatalog_dependencies.txt
+t1394855280
+s508
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/assetcatalog_generated_info.plist
+t1394855280
+s525
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app
+t1394855280
+s272
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM
+t2
+s0
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/Info.plist
+t1394855280
+s1243
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/PkgInfo
+t1394855280
+s8
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView
+t1394855280
+s140872
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/en.lproj/InfoPlist.strings
+t1394855280
+s42
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/Images.xcassets
+c000000005323B1380000000000000088
+t1394848056
+s136
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.m
+c000000005323B1380000000000000880
+t1394848056
+s2176
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Info.plist
+c000000005323B13800000000000005C6
+t1394848056
+s1478
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Prefix.pch
+c000000005323B1380000000000000154
+t1394848056
+s340
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m
+c00000000531F0F6D000000000000A9CF
+t1394544493
+s43471
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m
+c000000005323CD6A00000000000029CC
+t1394855274
+s10700
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/en.lproj/InfoPlist.strings
+c000000005323B138000000000000002D
+t1394848056
+s45
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/main.m
+c000000005323B1380000000000000157
+t1394848056
+s343
+
+CBuild AST from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.m
+r0
+
+CBuild AST from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m
+r0
+
+CBuild AST from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m
+r0
+
+CBuild AST from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb1dcbeef04d4b841^0400c7ef04d4b841^---0#1#1#--18"Check dependencies36"340E4689-5B7F-4473-BE78-DCBA3240C2BE-
+
+CCompileAssetCatalog /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/Images.xcassets
+s416548080.113777
+e416548080.842025
+r1
+xCompileAssetCatalog
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/LaunchImage-700-568h@2x.png
+o/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/Assets.car
+o/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"CompileAssetCatalog DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app SHLineGraphView/Images.xcassets136"CompileAssetCatalog DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app SHLineGraphView/Images.xcassets4c331df004d4b841^158fd7f004d4b841^-536"/* com.apple.actool.compilation-results *//Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/LaunchImage-700-568h@2x.png/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/Assets.car/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@84"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/Images.xcassets/0000000000000000^1365"CompileAssetCatalog DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app SHLineGraphView/Images.xcassets    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --target-device ipad --compress-pngs --compile /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/Images.xcassets36"853D495C-1D7E-43ED-A97E-82797FF15F82-
+bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+
+CCompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/PopoverView.o /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416548079.816583
+e416548079.975408
+r1
+xCompileC
+xDerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/PopoverView.o
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverViewCompatibility.h
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView_Configuration.h
+o/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:164:29: warning: 'sizeWithFont:constrainedToSize:lineBreakMode:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]
+o    CGSize textSize = [text sizeWithFont:font constrainedToSize:CGSizeMake(screenSize.width - kHorizontalMargin*4.f, 1000.f) lineBreakMode:UILineBreakModeWordWrap];
+o                            ^
+oIn module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:70:1: note: method 'sizeWithFont:constrainedToSize:lineBreakMode:' declared here
+o- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // NSTextAlignment is not needed to determine size
+o^
+o/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:183:29: warning: 'sizeWithFont:constrainedToSize:lineBreakMode:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]
+o    CGSize textSize = [text sizeWithFont:font constrainedToSize:CGSizeMake(screenSize.width - kHorizontalMargin*4.f, 1000.f) lineBreakMode:UILineBreakModeWordWrap];
+o                            ^
+oIn module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:70:1: note: method 'sizeWithFont:constrainedToSize:lineBreakMode:' declared here
+o- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // NSTextAlignment is not needed to determine size
+o^
+o/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:272:31: warning: 'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes: [-Wdeprecated-declarations]
+o    CGSize titleSize = [title sizeWithFont:kTitleFont];
+o                              ^
+oIn module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:59:1: note: method 'sizeWithFont:' declared here
+o- (CGSize)sizeWithFont:(UIFont *)font NS_DEPRECATED_IOS(2_0, 7_0, "Use -sizeWithAttributes:");
+o^
+o/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:359:35: warning: 'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes: [-Wdeprecated-declarations]
+o        CGSize textSize = [string sizeWithFont:font];
+o                                  ^
+oIn module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:59:1: note: method 'sizeWithFont:' declared here
+o- (CGSize)sizeWithFont:(UIFont *)font NS_DEPRECATED_IOS(2_0, 7_0, "Use -sizeWithAttributes:");
+o^
+o/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:384:35: warning: 'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes: [-Wdeprecated-declarations]
+o        CGSize textSize = [string sizeWithFont:font];
+o                                  ^
+oIn module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:59:1: note: method 'sizeWithFont:' declared here
+o- (CGSize)sizeWithFont:(UIFont *)font NS_DEPRECATED_IOS(2_0, 7_0, "Use -sizeWithAttributes:");
+o^
+o/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:431:35: warning: 'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes: [-Wdeprecated-declarations]
+o        CGSize textSize = [string sizeWithFont:font];
+o                                  ^
+oIn module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:59:1: note: method 'sizeWithFont:' declared here
+o- (CGSize)sizeWithFont:(UIFont *)font NS_DEPRECATED_IOS(2_0, 7_0, "Use -sizeWithAttributes:");
+o^
+o6 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m270"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/PopoverView.o SHLineGraphView/SHLineGraphView/PopoverView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5629d1ef04d4b841^9ab4f9ef04d4b841^-5336"/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:164:29: warning: 'sizeWithFont:constrainedToSize:lineBreakMode:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]    CGSize textSize = [text sizeWithFont:font constrainedToSize:CGSizeMake(screenSize.width - kHorizontalMargin*4.f, 1000.f) lineBreakMode:UILineBreakModeWordWrap];                            ^In module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:70:1: note: method 'sizeWithFont:constrainedToSize:lineBreakMode:' declared here- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // NSTextAlignment is not needed to determine size^/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:183:29: warning: 'sizeWithFont:constrainedToSize:lineBreakMode:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]    CGSize textSize = [text sizeWithFont:font constrainedToSize:CGSizeMake(screenSize.width - kHorizontalMargin*4.f, 1000.f) lineBreakMode:UILineBreakModeWordWrap];                            ^In module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:70:1: note: method 'sizeWithFont:constrainedToSize:lineBreakMode:' declared here- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // NSTextAlignment is not needed to determine size^/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:272:31: warning: 'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes: [-Wdeprecated-declarations]    CGSize titleSize = [title sizeWithFont:kTitleFont];                              ^In module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:59:1: note: method 'sizeWithFont:' declared here- (CGSize)sizeWithFont:(UIFont *)font NS_DEPRECATED_IOS(2_0, 7_0, "Use -sizeWithAttributes:");^/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:359:35: warning: 'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes: [-Wdeprecated-declarations]        CGSize textSize = [string sizeWithFont:font];                                  ^In module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:59:1: note: method 'sizeWithFont:' declared here- (CGSize)sizeWithFont:(UIFont *)font NS_DEPRECATED_IOS(2_0, 7_0, "Use -sizeWithAttributes:");^/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:384:35: warning: 'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes: [-Wdeprecated-declarations]        CGSize textSize = [string sizeWithFont:font];                                  ^In module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:59:1: note: method 'sizeWithFont:' declared here- (CGSize)sizeWithFont:(UIFont *)font NS_DEPRECATED_IOS(2_0, 7_0, "Use -sizeWithAttributes:");^/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m:431:35: warning: 'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes: [-Wdeprecated-declarations]        CGSize textSize = [string sizeWithFont:font];                                  ^In module 'UIKit' imported from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:59:1: note: method 'sizeWithFont:' declared here- (CGSize)sizeWithFont:(UIFont *)font NS_DEPRECATED_IOS(2_0, 7_0, "Use -sizeWithAttributes:");^6 warnings generated.6(36%IDEClangDiagnosticActivityLogMessage2@146"'sizeWithFont:constrainedToSize:lineBreakMode:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context:-416548079#18446744073709551615#0#1(2@68"Method 'sizeWithFont:constrainedToSize:lineBreakMode:' declared here-416548079#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^69#0#69#0#4398#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@97"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m0000000000000000^163#28#163#28#6241#0#12"Deprecations--2@146"'sizeWithFont:constrainedToSize:lineBreakMode:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context:-416548079#18446744073709551615#0#1(2@68"Method 'sizeWithFont:constrainedToSize:lineBreakMode:' declared here-416548079#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^69#0#69#0#4398#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@97"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m0000000000000000^182#28#182#28#7152#0#12"Deprecations--2@85"'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes:-416548079#18446744073709551615#0#1(2@36"Method 'sizeWithFont:' declared here-416548079#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^58#0#58#0#3133#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@97"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m0000000000000000^271#30#271#30#10944#0#12"Deprecations--2@85"'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes:-416548079#18446744073709551615#0#1(2@36"Method 'sizeWithFont:' declared here-416548079#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^58#0#58#0#3133#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@97"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m0000000000000000^358#34#358#34#14613#0#12"Deprecations--2@85"'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes:-416548079#18446744073709551615#0#1(2@36"Method 'sizeWithFont:' declared here-416548079#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^58#0#58#0#3133#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@97"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m0000000000000000^383#34#383#34#15861#0#12"Deprecations--2@85"'sizeWithFont:' is deprecated: first deprecated in iOS 7.0 - Use -sizeWithAttributes:-416548079#18446744073709551615#0#1(2@36"Method 'sizeWithFont:' declared here-416548079#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^58#0#58#0#3133#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@97"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m0000000000000000^430#34#430#34#18303#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@97"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m0000000000000000^4351"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/PopoverView.o SHLineGraphView/SHLineGraphView/PopoverView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-generated-files.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-own-target-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-all-target-headers.hmap -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-project-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources/i386 -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources -F/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -include /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch -MMD -MT dependencies -MF /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/PopoverView.d --serialize-diagnostics /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/PopoverView.dia -c /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/PopoverView.o36"6638F201-ABB6-44B4-AE0C-41C3611EFAC0-
+bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+
+CCompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHAppDelegate.o /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416548079.816267
+e416548079.886508
+r1
+xCompileC
+xDerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHAppDelegate.o
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.m
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.m258"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHAppDelegate.o SHLineGraphView/SHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbd19d1ef04d4b841^3df3e2ef04d4b841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.m0000000000000000^4331"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHAppDelegate.o SHLineGraphView/SHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-generated-files.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-own-target-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-all-target-headers.hmap -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-project-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources/i386 -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources -F/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -include /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch -MMD -MT dependencies -MF /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHAppDelegate.d --serialize-diagnostics /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHAppDelegate.dia -c /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.m -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHAppDelegate.o36"DA747046-1576-4877-AD45-F43E2C14A7B9-
+bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+
+CCompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416548079.817086
+e416548079.919203
+r1
+xCompileC
+xDerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.h
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverViewCompatibility.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m278"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o SHLineGraphView/SHLineGraphView/SHLineGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera451d1ef04d4b841^f051ebef04d4b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m0000000000000000^4375"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o SHLineGraphView/SHLineGraphView/SHLineGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-generated-files.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-own-target-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-all-target-headers.hmap -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-project-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources/i386 -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources -F/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -include /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch -MMD -MT dependencies -MF /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.d --serialize-diagnostics /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.dia -c /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o36"FDF27B72-C27B-4E73-A3E6-6F91E53BF363-
+bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+
+CCompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.o /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416548079.816028
+e416548079.846599
+r1
+xCompileC
+xDerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.o
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/main.m
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/main.m240"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.o SHLineGraphView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4b01d1ef04d4b841^1bbbd8ef04d4b841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/main.m0000000000000000^4277"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.o SHLineGraphView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-generated-files.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-own-target-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-all-target-headers.hmap -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-project-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources/i386 -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources -F/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -include /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch -MMD -MT dependencies -MF /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.dia -c /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/main.m -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.o36"2831153D-F683-4892-A9BF-2AB81F809EB6-
+bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+
+CCopyStringsFile /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/en.lproj/InfoPlist.strings SHLineGraphView/en.lproj/InfoPlist.strings
+s416548080.113506
+e416548080.117862
+r1
+xCopyStringsFile
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/en.lproj/InfoPlist.strings
+xSHLineGraphView/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy SHLineGraphView/en.lproj/InfoPlist.strings170"CopyStringsFile DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/en.lproj/InfoPlist.strings SHLineGraphView/en.lproj/InfoPlist.stringseb1a1df004d4b841^c8cf26f004d4b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/en.lproj/InfoPlist.strings0000000000000000^693"CopyStringsFile DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/en.lproj/InfoPlist.strings SHLineGraphView/en.lproj/InfoPlist.strings    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/en.lproj -- SHLineGraphView/en.lproj/InfoPlist.strings36"7F7F82BB-EE49-4544-92DE-6EE8C8823DB0-
+bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+
+CGenerateDSYMFile /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView
+s416548080.844090
+e416548080.875133
+r1
+xGenerateDSYMFile
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Generate /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM207"GenerateDSYMFile DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView431fd8f004d4b841^2d09e0f004d4b841^---0#0#1#-19%DVTDocumentLocation2@141"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM003454d5deffdf42^839"GenerateDSYMFile DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM36"4E1505CF-5D5F-43B0-A4B2-14098D28CE80-
+bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+
+CLd /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView normal i386
+s416548079.976052
+e416548080.112880
+r1
+xLd
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView
+xnormal
+xi386
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.o
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHAppDelegate.o
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/PopoverView.o
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Link /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView115"Ld DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView normal i38618edf9ef04d4b841^0e681df004d4b841^---0#0#1#--1673"Ld DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView normal i386    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -F/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -filelist /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView_dependency_info.dat -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView36"BEF625DB-C3BB-4D80-A1B6-FCE790751218-
+bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+
+CProcessInfoPlistFile /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/Info.plist /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Info.plist
+s416548080.842439
+e416548080.843774
+r1
+xProcessInfoPlistFile
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/Info.plist
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Process /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Info.plist159"ProcessInfoPlistFile DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/Info.plist SHLineGraphView/SHLineGraphView-Info.plistaab6d7f004d4b841^8e02d8f004d4b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Info.plist0000000000000000^1096"ProcessInfoPlistFile DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/Info.plist SHLineGraphView/SHLineGraphView-Info.plist    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Info.plist -genpkginfo /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/assetcatalog_generated_info.plist -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/Info.plist36"2D71E8EA-DE5C-4D0F-9EE6-EF174EA0503B-
+bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+
+CProcessPCH /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch.pch SHLineGraphView/SHLineGraphView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416548079.778095
+e416548079.815459
+r1
+xProcessPCH
+x/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch.pch
+xSHLineGraphView/SHLineGraphView-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile SHLineGraphView/SHLineGraphView-Prefix.pch271"ProcessPCH DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch.pch SHLineGraphView/SHLineGraphView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler594dc7ef04d4b841^e3c3d0ef04d4b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Prefix.pch0000000000000000^4158"ProcessPCH DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch.pch SHLineGraphView/SHLineGraphView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-generated-files.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-own-target-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-all-target-headers.hmap -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-project-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources/i386 -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources -F/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch.dia -MMD -MT dependencies -MF /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch.d -c /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Prefix.pch -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch.pch36"034AC3E8-9ED2-4663-9774-55B8FFB1FC72-
+bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+
+CProcessPCH /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Index/PrecompiledHeaders/SHLineGraphView-Prefix-abwjmilrxwoigvcexwmavbvlxfas_ast/SHLineGraphView-Prefix.pch.pch SHLineGraphView/SHLineGraphView-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app
+r0
+

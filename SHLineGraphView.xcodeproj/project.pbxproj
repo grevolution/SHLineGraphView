@@ -19,6 +19,8 @@
 		F2F9137618D3E8B8002D6919 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F9135E18D3E8B8002D6919 /* UIKit.framework */; };
 		F2F9137E18D3E8B8002D6919 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2F9137C18D3E8B8002D6919 /* InfoPlist.strings */; };
 		F2F9138018D3E8B8002D6919 /* SHLineGraphViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9137F18D3E8B8002D6919 /* SHLineGraphViewTests.m */; };
+		F2F9138C18D403CE002D6919 /* SHLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9138B18D403CE002D6919 /* SHLineGraphView.m */; };
+		F2F9139118D40467002D6919 /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F9138F18D40467002D6919 /* PopoverView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,12 @@
 		F2F9137B18D3E8B8002D6919 /* SHLineGraphViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHLineGraphViewTests-Info.plist"; sourceTree = "<group>"; };
 		F2F9137D18D3E8B8002D6919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2F9137F18D3E8B8002D6919 /* SHLineGraphViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLineGraphViewTests.m; sourceTree = "<group>"; };
+		F2F9138A18D403CE002D6919 /* SHLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLineGraphView.h; sourceTree = "<group>"; };
+		F2F9138B18D403CE002D6919 /* SHLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLineGraphView.m; sourceTree = "<group>"; };
+		F2F9138D18D40467002D6919 /* PopoverView_Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView_Configuration.h; sourceTree = "<group>"; };
+		F2F9138E18D40467002D6919 /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
+		F2F9138F18D40467002D6919 /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
+		F2F9139018D40467002D6919 /* PopoverViewCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewCompatibility.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,7 @@
 		F2F9136018D3E8B8002D6919 /* SHLineGraphView */ = {
 			isa = PBXGroup;
 			children = (
+				F2F9138918D403CE002D6919 /* SHLineGraphView */,
 				F2F9136918D3E8B8002D6919 /* SHAppDelegate.h */,
 				F2F9136A18D3E8B8002D6919 /* SHAppDelegate.m */,
 				F2F9136C18D3E8B8002D6919 /* Images.xcassets */,
@@ -142,6 +151,19 @@
 				F2F9137C18D3E8B8002D6919 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2F9138918D403CE002D6919 /* SHLineGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				F2F9138D18D40467002D6919 /* PopoverView_Configuration.h */,
+				F2F9138E18D40467002D6919 /* PopoverView.h */,
+				F2F9138F18D40467002D6919 /* PopoverView.m */,
+				F2F9139018D40467002D6919 /* PopoverViewCompatibility.h */,
+				F2F9138A18D403CE002D6919 /* SHLineGraphView.h */,
+				F2F9138B18D403CE002D6919 /* SHLineGraphView.m */,
+			);
+			path = SHLineGraphView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +264,8 @@
 			files = (
 				F2F9136718D3E8B8002D6919 /* main.m in Sources */,
 				F2F9136B18D3E8B8002D6919 /* SHAppDelegate.m in Sources */,
+				F2F9139118D40467002D6919 /* PopoverView.m in Sources */,
+				F2F9138C18D403CE002D6919 /* SHLineGraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
