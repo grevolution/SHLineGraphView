@@ -183,7 +183,7 @@
 		UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
 		btn.backgroundColor = [UIColor clearColor];
 		btn.tag = i;
-		btn.frame = CGRectMake(point.x - 10, point.y - 10, 20, 20);
+		btn.frame = CGRectMake(point.x - 20, point.y - 20, 40, 40);
 		[btn addTarget:self action:@selector(clicked:) forControlEvents:UIControlEventTouchUpInside];
 		[self addSubview:btn];
 	}

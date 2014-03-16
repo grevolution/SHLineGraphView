@@ -29,25 +29,195 @@ c000000005269B4D400000000000001A0
 t1382659284
 s416
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005269B4D500000000005838D0
+t1382659285
+s5781712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005269B4D500000000005B82A0
+t1382659285
+s5997216
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000005269B4D50000000000445870
 t1382659285
 s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c000000005269B4D50000000000355050
+t1382659285
+s3493968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c000000005269B4D500000000002F6810
+t1382659285
+s3106832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000005269B4D5000000000004B000
+t1382659285
+s307200
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c000000005269B4D6000000000088C680
 t1382659286
 s8963712
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000005269B4D60000000000037620
+t1382659286
+s226848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005269B4D600000000004848F0
+t1382659286
+s4737264
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005269B4D600000000001290B0
+t1382659286
+s1216688
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
 c000000005269B4D80000000001DB9910
 t1382659288
 s31168784
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c000000005269B4DD00000000002B9F20
+t1382659293
+s2858784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+c000000005269B4E00000000000002338
+t1382659296
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+c000000005269B4E0000000000008D300
+t1382659296
+s578304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+c000000005269B4E0000000000038ACB0
+t1382659296
+s3714224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+c0000000053112D2800000000000141F0
+t1393634600
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+c000000005269B4E00000000000013500
+t1382659296
+s79104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c000000005269B4E00000000000033BA0
+t1382659296
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c000000005269B4E0000000000001CFB0
+t1382659296
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+c000000005269B4E0000000000001B2B0
+t1382659296
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+c000000005269B4E000000000000632B0
+t1382659296
+s406192
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+c000000005269B4E00000000000008880
+t1382659296
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+c000000005269B4E00000000000015080
+t1382659296
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+c000000005269B4E000000000000230E0
+t1382659296
+s143584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+c000000005269B4E0000000000000E380
+t1382659296
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+c000000005269B4E00000000000087200
+t1382659296
+s553472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+c000000005269B4E000000000000171A0
+t1382659296
+s94624
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c000000005269B4E00000000000039C10
+t1382659296
+s236560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c000000005269B4E0000000000000B0B0
+t1382659296
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+c000000005269B4E00000000000167FE0
+t1382659296
+s1474528
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c000000005269B4E000000000000106A0
+t1382659296
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c000000005269B4E0000000000001CE40
+t1382659296
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+c000000005269B4E00000000000071040
+t1382659296
+s462912
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+c000000005269B4E00000000000067A10
+t1382659296
+s424464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+c000000005269B4E0000000000001BAD0
+t1382659296
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+c000000005269B4E00000000000088BA0
+t1382659296
+s560032
+
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
 c000000005269B4EE0000000000000AC9
 t1382659310
 s2761
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+c000000005269B4EE0000000000005004
+t1382659310
+s20484
 
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch.pch
 t1394855279
@@ -67,7 +237,7 @@ t1394855279
 s771
 
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o
-t1394855279
+t1394938130
 s97160
 
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.o
@@ -83,12 +253,12 @@ t1394855280
 s525
 
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app
-t1394855280
+t1394938130
 s272
 
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM
-t2
-s0
+t1394855280
+s102
 
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/Info.plist
 t1394855280
@@ -99,7 +269,7 @@ t1394855280
 s8
 
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView
-t1394855280
+t1394938130
 s140872
 
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/en.lproj/InfoPlist.strings
@@ -110,6 +280,11 @@ N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/Images.xcassets
 c000000005323B1380000000000000088
 t1394848056
 s136
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.h
+c000000005323B1380000000000000121
+t1394848056
+s289
 
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.m
 c000000005323B1380000000000000880
@@ -126,15 +301,35 @@ c000000005323B1380000000000000154
 t1394848056
 s340
 
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h
+c00000000531F0F6D0000000000001DDA
+t1394544493
+s7642
+
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.m
 c00000000531F0F6D000000000000A9CF
 t1394544493
 s43471
 
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverViewCompatibility.h
+c00000000531F0F6D000000000000028A
+t1394544493
+s650
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView_Configuration.h
+c00000000531F0F6D0000000000000BE1
+t1394544493
+s3041
+
+N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.h
+c000000005323CD7900000000000005F3
+t1394855289
+s1523
+
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m
-c000000005323CD6A00000000000029CC
-t1394855274
-s10700
+c000000005325111100000000000029CD
+t1394938129
+s10701
 
 N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/en.lproj/InfoPlist.strings
 c000000005323B138000000000000002D
@@ -145,6 +340,136 @@ N/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/main.m
 c000000005323B1380000000000000157
 t1394848056
 s343
+
+N/usr/lib/libSystem.B.dylib
+c000000005250C265000000000000E6D0
+t1381024357
+s59088
+
+N/usr/lib/system/libcache.dylib
+c000000005250C2730000000000012A00
+t1381024371
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c000000005250C258000000000002E320
+t1381024344
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c000000005250C2650000000000021860
+t1381024357
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c000000005250C273000000000001B620
+t1381024371
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c000000005250C27300000000000BD920
+t1381024371
+s776480
+
+N/usr/lib/system/libkeymgr.dylib
+c000000005250C273000000000000A120
+t1381024371
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c0000000053112D28000000000001D550
+t1393634600
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c000000005250C2720000000000014EE0
+t1381024370
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c000000005250C2750000000000010380
+t1381024373
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c000000005250C275000000000000C4C0
+t1381024373
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c000000005250C27300000000000357A0
+t1381024371
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c000000005250C273000000000000C070
+t1381024371
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c0000000053112D0B0000000000168D00
+t1393634571
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c0000000053112D240000000000010630
+t1393634596
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c0000000053112D28000000000001DF10
+t1393634600
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c000000005250C2650000000000075B00
+t1381024357
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c0000000053112D0B000000000007CCE0
+t1393634571
+s511200
+
+N/usr/lib/system/libsystem_m.dylib
+c000000005250C26500000000000766C0
+t1381024357
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c0000000053112D280000000000044DC0
+t1393634600
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c000000005250C2650000000000021FA0
+t1381024357
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c0000000053112D28000000000002D920
+t1393634600
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c000000005250C274000000000001E570
+t1381024372
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c0000000053112D1B000000000000CC70
+t1393634587
+s52336
+
+N/usr/lib/system/libunc.dylib
+c000000005250C26E000000000000C3F0
+t1381024366
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c000000005250C27400000000000199F0
+t1381024372
+s104944
 
 CBuild AST from /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHAppDelegate.m
 r0
@@ -160,7 +485,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb1dcbeef04d4b841^0400c7ef04d4b841^---0#1#1#--18"Check dependencies36"340E4689-5B7F-4473-BE78-DCBA3240C2BE-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf8fd539248d5b841^34be5b9248d5b841^---0#1#1#--18"Check dependencies36"57600BA1-40CC-47B5-B8C8-2761FD658716-
 
 CCompileAssetCatalog /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/Images.xcassets
 s416548080.113777
@@ -255,8 +580,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile
 bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
 
 CCompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s416548079.817086
-e416548079.919203
+s416630930.359796
+e416630930.591768
 r1
 xCompileC
 xDerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o
@@ -269,8 +594,8 @@ d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SH
 d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.h
 d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverView.h
 d/Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/PopoverViewCompatibility.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m278"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o SHLineGraphView/SHLineGraphView/SHLineGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera451d1ef04d4b841^f051ebef04d4b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m0000000000000000^4375"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o SHLineGraphView/SHLineGraphView/SHLineGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-generated-files.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-own-target-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-all-target-headers.hmap -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-project-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources/i386 -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources -F/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -include /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch -MMD -MT dependencies -MF /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.d --serialize-diagnostics /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.dia -c /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o36"FDF27B72-C27B-4E73-A3E6-6F91E53BF363-
-bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m278"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o SHLineGraphView/SHLineGraphView/SHLineGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5a2d5c9248d5b841^fb94979248d5b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m0000000000000000^4375"CompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o SHLineGraphView/SHLineGraphView/SHLineGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-generated-files.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-own-target-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-all-target-headers.hmap -iquote /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/SHLineGraphView-project-headers.hmap -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources/i386 -I/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/DerivedSources -F/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -include /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/PrecompiledHeaders/SHLineGraphView-Prefix-edlxnvvofjfucognuixvkqccjphk/SHLineGraphView-Prefix.pch -MMD -MT dependencies -MF /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.d --serialize-diagnostics /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.dia -c /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView/SHLineGraphView.m -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.o36"C4FFC858-AB58-471E-82CB-0E76C03BF678-
+bAA26B56E-0A07-4D1B-8942-7F97E6F82E23
 
 CCompileC DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/main.o /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s416548079.816028
@@ -299,18 +624,18 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy SH
 bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
 
 CGenerateDSYMFile /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView
-s416548080.844090
-e416548080.875133
+s416630930.635414
+e416630930.656339
 r1
 xGenerateDSYMFile
 x/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM
 x/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Generate /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM207"GenerateDSYMFile DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView431fd8f004d4b841^2d09e0f004d4b841^---0#0#1#-19%DVTDocumentLocation2@141"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM003454d5deffdf42^839"GenerateDSYMFile DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM36"4E1505CF-5D5F-43B0-A4B2-14098D28CE80-
-bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Generate /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM207"GenerateDSYMFile DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView7cb6a29248d5b841^586fac9248d5b841^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM/0000000000000000^839"GenerateDSYMFile DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app.dSYM36"3E6DBA90-FE3C-48FE-BFDE-9A6BBB66E8F9-
+bAA26B56E-0A07-4D1B-8942-7F97E6F82E23
 
 CLd /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView normal i386
-s416548079.976052
-e416548080.112880
+s416630930.593743
+e416630930.633671
 r1
 xLd
 x/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView
@@ -336,7 +661,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
@@ -358,6 +682,7 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
 d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
 d/usr/lib/system/libcache.dylib
 d/usr/lib/system/libcommonCrypto.dylib
@@ -384,8 +709,8 @@ d/usr/lib/system/libsystem_pthread.dylib
 d/usr/lib/system/libsystem_sandbox.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Link /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView115"Ld DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView normal i38618edf9ef04d4b841^0e681df004d4b841^---0#0#1#--1673"Ld DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView normal i386    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -F/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -filelist /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView_dependency_info.dat -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView36"BEF625DB-C3BB-4D80-A1B6-FCE790751218-
-bFEDFEB7D-3821-4637-A2DE-C5802D7904C5
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Link /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView115"Ld DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView normal i386b610989248d5b841^8638a29248d5b841^---0#0#1#--1673"Ld DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView normal i386    cd /Users/shanulhaq/Awesomeness/SHLineGraphView    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -F/Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator -filelist /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Intermediates/SHLineGraphView.build/Debug-iphonesimulator/SHLineGraphView.build/Objects-normal/i386/SHLineGraphView_dependency_info.dat -o /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/SHLineGraphView36"61BE05B2-04FA-4BFF-A34A-104EA9911EE7-
+bAA26B56E-0A07-4D1B-8942-7F97E6F82E23
 
 CProcessInfoPlistFile /Users/shanulhaq/Awesomeness/SHLineGraphView/DerivedData/SHLineGraphView/Build/Products/Debug-iphonesimulator/SHLineGraphView.app/Info.plist /Users/shanulhaq/Awesomeness/SHLineGraphView/SHLineGraphView/SHLineGraphView-Info.plist
 s416548080.842439

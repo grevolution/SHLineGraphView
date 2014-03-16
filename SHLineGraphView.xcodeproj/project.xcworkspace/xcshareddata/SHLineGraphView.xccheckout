@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8A9B48AE-BE72-4E19-86F5-4E3F9DB68B66</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SHLineGraphView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6DF3E1AD-C96F-4EC5-ACB8-23D2D4243EFF</key>
+		<string>https://github.com/grevolution/SHLineGraphView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SHLineGraphView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6DF3E1AD-C96F-4EC5-ACB8-23D2D4243EFF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/grevolution/SHLineGraphView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6DF3E1AD-C96F-4EC5-ACB8-23D2D4243EFF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6DF3E1AD-C96F-4EC5-ACB8-23D2D4243EFF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SHLineGraphView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
