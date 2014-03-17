@@ -266,7 +266,12 @@
       yAxisLabel.font = FONT_WITH_SIZE(10);
       yAxisLabel.textColor = [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4];
       yAxisLabel.textAlignment = NSTextAlignmentCenter;
-      yAxisLabel.text = [NSString stringWithFormat:@"%.1f%@", (yIntervalValue * (10 - i)), _yAxisSuffix];
+      float val = (yIntervalValue * (10 - i));
+      if(val > 0){
+        yAxisLabel.text = [NSString stringWithFormat:@"%.1f%@", val, _yAxisSuffix];
+      } else {
+        yAxisLabel.text = [NSString stringWithFormat:@"%.0f", val];
+      }
       [self addSubview:yAxisLabel];
     }
   }
