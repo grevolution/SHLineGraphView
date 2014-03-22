@@ -21,24 +21,24 @@
 // SOFTWARE.
 
 #import "SHLineGraphView.h"
-#import <math.h>
 #import "PopoverView.h"
 #import "SHPlot.h"
+#import <math.h>
 #import <objc/runtime.h>
 
 #define BOTTOM_MARGIN_TO_LEAVE 30
 #define TOP_MARGIN_TO_LEAVE 30
 #define INTERVAL_COUNT 9
-#define LEFT_MARGIN_TO_LEAVE 100
-#define PLOT_WIDTH 699.0F
-
-#define FONT_WITH_SIZE(val) [UIFont fontWithName:@"TrebuchetMS" size:val]
+#define Y_AXIS_LABEL_MARGIN 10
+#define PLOT_WIDTH (self.bounds.size.width - _leftMarginToLeave)
 
 #define kAssociatedPlotObject @"kAssociatedPlotObject"
 
 
 @implementation SHLineGraphView
-
+{
+  float _leftMarginToLeave;
+}
 - (instancetype)init {
   if((self = [super init])) {
     [self loadDefaultTheme];
@@ -90,11 +90,12 @@
 }
 
 - (void)drawPlotWithPlot:(SHPlot *)plot {
+  //draw y-axis labels. this has to be done first, so that we can determine the left margin to leave according to the
+  //y-axis lables.
+  [self drawYLabels:plot];
+
   //draw x-labels
   [self drawXLabels:plot];
-  
-  //draw y-axis labels
-  [self drawYLabels:plot];
   
   //draw the grey lines
   [self drawLines:plot];
@@ -182,8 +183,8 @@
   }];
   
   //move to initial point for path and background.
-  CGPathMoveToPoint(graphPath, NULL, LEFT_MARGIN_TO_LEAVE, plot.xPoints[0].y);
-  CGPathMoveToPoint(backgroundPath, NULL, LEFT_MARGIN_TO_LEAVE, plot.xPoints[0].y);
+  CGPathMoveToPoint(graphPath, NULL, _leftMarginToLeave, plot.xPoints[0].y);
+  CGPathMoveToPoint(backgroundPath, NULL, _leftMarginToLeave, plot.xPoints[0].y);
   
   int count = _xAxisValues.count;
   for(int i=0; i< count; i++){
@@ -194,12 +195,12 @@
   }
   
   //move to initial point for path and background.
-  CGPathAddLineToPoint(graphPath, NULL, LEFT_MARGIN_TO_LEAVE + PLOT_WIDTH, plot.xPoints[count -1].y);
-  CGPathAddLineToPoint(backgroundPath, NULL, LEFT_MARGIN_TO_LEAVE + PLOT_WIDTH, plot.xPoints[count - 1].y);
+  CGPathAddLineToPoint(graphPath, NULL, _leftMarginToLeave + PLOT_WIDTH, plot.xPoints[count -1].y);
+  CGPathAddLineToPoint(backgroundPath, NULL, _leftMarginToLeave + PLOT_WIDTH, plot.xPoints[count - 1].y);
   
   //additional points for background.
-  CGPathAddLineToPoint(backgroundPath, NULL, LEFT_MARGIN_TO_LEAVE + PLOT_WIDTH, self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE);
-  CGPathAddLineToPoint(backgroundPath, NULL, LEFT_MARGIN_TO_LEAVE, self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE);
+  CGPathAddLineToPoint(backgroundPath, NULL, _leftMarginToLeave + PLOT_WIDTH, self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE);
+  CGPathAddLineToPoint(backgroundPath, NULL, _leftMarginToLeave, self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE);
   CGPathCloseSubpath(backgroundPath);
   
   backgroundLayer.path = backgroundPath;
@@ -243,7 +244,7 @@
   plot.xPoints = calloc(sizeof(CGPoint), xIntervalCount);
   
   for(int i=0; i < xIntervalCount; i++){
-    CGPoint currentLabelPoint = CGPointMake((xIntervalInPx * i) + LEFT_MARGIN_TO_LEAVE, self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE);
+    CGPoint currentLabelPoint = CGPointMake((xIntervalInPx * i) + _leftMarginToLeave, self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE);
     CGRect xLabelFrame = CGRectMake(currentLabelPoint.x , currentLabelPoint.y, xIntervalInPx, BOTTOM_MARGIN_TO_LEAVE);
     
     plot.xPoints[i] = CGPointMake((int) xLabelFrame.origin.x + (xLabelFrame.size.width /2) , (int) 0);
@@ -271,8 +272,11 @@
   double yIntervalValue = yRange / INTERVAL_COUNT;
   double intervalInPx = (self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE ) / (INTERVAL_COUNT +1);
   
+  NSMutableArray *labelArray = [NSMutableArray array];
+  float maxWidth = 0;
+  
   for(int i= INTERVAL_COUNT + 1; i >= 0; i--){
-    CGPoint currentLinePoint = CGPointMake(LEFT_MARGIN_TO_LEAVE, i * intervalInPx);
+    CGPoint currentLinePoint = CGPointMake(_leftMarginToLeave, i * intervalInPx);
     CGRect lableFrame = CGRectMake(0, currentLinePoint.y - (intervalInPx / 2), 100, intervalInPx);
     
     if(i != 0) {
@@ -287,8 +291,26 @@
       } else {
         yAxisLabel.text = [NSString stringWithFormat:@"%.0f", val];
       }
+      [yAxisLabel sizeToFit];
+      CGRect newLabelFrame = CGRectMake(0, currentLinePoint.y - (yAxisLabel.layer.frame.size.height / 2), yAxisLabel.frame.size.width, yAxisLabel.layer.frame.size.height);
+      yAxisLabel.frame = newLabelFrame;
+      
+      if(newLabelFrame.size.width > maxWidth) {
+        maxWidth = newLabelFrame.size.width;
+      }
+      
+      [labelArray addObject:yAxisLabel];
       [self addSubview:yAxisLabel];
     }
+  }
+  
+  _leftMarginToLeave = maxWidth + Y_AXIS_LABEL_MARGIN;
+  
+  for( UILabel *l in labelArray) {
+    CGSize newSize = CGSizeMake(_leftMarginToLeave, l.frame.size.height);
+    CGRect newFrame = l.frame;
+    newFrame.size = newSize;
+    l.frame = newFrame;
   }
 }
 
@@ -306,7 +328,7 @@
   double intervalInPx = (self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE) / (INTERVAL_COUNT + 1);
   for(int i= INTERVAL_COUNT + 1; i >=0; i--){
     
-    CGPoint currentLinePoint = CGPointMake(LEFT_MARGIN_TO_LEAVE, (i * intervalInPx));
+    CGPoint currentLinePoint = CGPointMake(_leftMarginToLeave, (i * intervalInPx));
     
     CGPathMoveToPoint(linesPath, NULL, currentLinePoint.x, currentLinePoint.y);
     CGPathAddLineToPoint(linesPath, NULL, currentLinePoint.x + PLOT_WIDTH, currentLinePoint.y);

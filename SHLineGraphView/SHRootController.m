@@ -30,7 +30,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
   
-  SHLineGraphView *_lineGraph = [[SHLineGraphView alloc] initWithFrame:CGRectMake(0, 0, 480, 320)];
+  //initate the graph view
+  SHLineGraphView *_lineGraph = [[SHLineGraphView alloc] initWithFrame:CGRectMake(0, 0, 568, 320)];
+  
+  //set the main graph area theme attributes
+  NSDictionary *_themeAttributes = @{
+                       kXAxisLabelColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
+                       kXAxisLabelFontKey : [UIFont fontWithName:@"TrebuchetMS" size:10],
+                       kYAxisLabelColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
+                       kYAxisLabelFontKey : [UIFont fontWithName:@"TrebuchetMS" size:10],
+                       kPlotBackgroundLineColorKye : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4]
+                       };
+  _lineGraph.themeAttributes = _themeAttributes;
+  
+  //set the line graph attributes
   _lineGraph.yAxisRange = @(98);
   _lineGraph.yAxisSuffix = @"K";
   _lineGraph.xAxisValues = @[
@@ -47,8 +60,11 @@
                              @{ @11 : @"NOV" },
                              @{ @12 : @"DEC" }
                              ];
-
+  
+  //create a plot
   SHPlot *_plot1 = [[SHPlot alloc] init];
+  
+  //set the plot attributes
   _plot1.plottingValues = @[
                                   @{ @1 : @65.8 },
                                   @{ @2 : @20 },
@@ -65,10 +81,25 @@
                                   ];
   NSArray *arr = @[@"1", @"2", @"3", @"4", @"5", @"6" , @"7" , @"8", @"9", @"10", @"11", @"12"];
   _plot1.plottingPointsLabels = arr;
+  
+  //set plot theme attributes
+  NSDictionary *_plotThemeAttributes = @{
+                           kPlotFillColorKey : [UIColor colorWithRed:0.47 green:0.75 blue:0.78 alpha:0.5],
+                           kPlotStrokeWidthKey : @2,
+                           kPlotStrokeColorKey : [UIColor colorWithRed:0.18 green:0.36 blue:0.41 alpha:1],
+                           kPlotPointFillColorKey : [UIColor colorWithRed:0.18 green:0.36 blue:0.41 alpha:1],
+                           kPlotPointValueFontKey : [UIFont fontWithName:@"TrebuchetMS" size:18]
+                           };
+  
+  _plot1.plotThemeAttributes = _plotThemeAttributes;
+  
   [_lineGraph addPlot:_plot1];
   
   
+  //create another plot
   SHPlot *_plot2 = [[SHPlot alloc] init];
+  
+  //set the plot attributes
   _plot2.plottingValues = @[
                             @{ @1 : @22 },
                             @{ @2 : @12.3 },
@@ -83,24 +114,20 @@
                             @{ @11 : @65 },
                             @{ @12 : @23 }
                             ];
+
   NSArray *arr2 = @[@"1", @"2", @"3", @"4", @"5", @"6" , @"7" , @"8", @"9", @"10", @"11", @"12"];
   _plot2.plottingPointsLabels = arr2;
   
-  NSDictionary *_plotThemeAttributes = @{
-                           kXAxisLabelColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
-                           kXAxisLabelFontKey : [UIFont fontWithName:@"TrebuchetMS" size:10],
-                           kYAxisLabelColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
-                           kYAxisLabelFontKey : [UIFont fontWithName:@"TrebuchetMS" size:10],
-                           kPlotFillColorKey : [UIColor colorWithRed:1 green:0 blue:0 alpha:0.5],
+  //set plot themeing attributes.
+  NSDictionary *_plotThemeAttributes2 = @{
+                           kPlotFillColorKey : [UIColor colorWithRed:0 green:0 blue:1 alpha:0.3],
                            kPlotStrokeWidthKey : @2,
-                           kPlotStrokeColorKey : [UIColor colorWithRed:1 green:0 blue:0 alpha:1],
-                           kPlotPointFillColorKey : [UIColor colorWithRed:1 green:0 blue:0 alpha:1],
-                           kPlotBackgroundLineColorKye : [UIColor colorWithRed:1 green:0 blue:0 alpha:0.4],
+                           kPlotStrokeColorKey : [UIColor colorWithRed:0 green:0 blue:1 alpha:1],
+                           kPlotPointFillColorKey : [UIColor colorWithRed:0 green:0 blue:1 alpha:1],
                            kPlotPointValueFontKey : [UIFont fontWithName:@"TrebuchetMS" size:18]
                            };
 
-  _plot2.plotThemeAttributes = _plotThemeAttributes;
-  
+  _plot2.plotThemeAttributes = _plotThemeAttributes2;
   [_lineGraph addPlot:_plot2];
 
   
