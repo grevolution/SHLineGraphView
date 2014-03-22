@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         	= "SHLineGraphView"
   s.version      	= "1.0.4"
-  s.summary      	= "`SHLineGraphView` is a simple and efficient reusable UIView subview which you can use to create line graphs. It uses Core Graphics and Core Animation to create the light weight graphs. it is easy to use/understand and completely customizable."
+  s.summary      	= "`SHLineGraphView` is a simple and efficient reusable UIView subview which you can use to create line graphs."
 
   s.description  	= <<-DESC
                    `SHLineGraphView` is a simple and efficient reusable UIView subview which you can use to create line graphs. It uses Core Graphics and Core Animation to create the light weight graphs. it is easy to use/understand and completely customizable. 
