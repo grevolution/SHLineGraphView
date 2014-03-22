@@ -26,10 +26,10 @@
 #import <math.h>
 #import <objc/runtime.h>
 
-#define BOTTOM_MARGIN_TO_LEAVE 30
-#define TOP_MARGIN_TO_LEAVE 30
+#define BOTTOM_MARGIN_TO_LEAVE 30.0
+#define TOP_MARGIN_TO_LEAVE 30.0
 #define INTERVAL_COUNT 9
-#define Y_AXIS_LABEL_MARGIN 10
+#define Y_AXIS_LABEL_MARGIN 10.0
 #define PLOT_WIDTH (self.bounds.size.width - _leftMarginToLeave)
 
 #define kAssociatedPlotObject @"kAssociatedPlotObject"
@@ -88,6 +88,8 @@
     [self drawPlotWithPlot:plot];
   }
 }
+
+#pragma mark - Actual Plot Drawing Methods
 
 - (void)drawPlotWithPlot:(SHPlot *)plot {
   //draw y-axis labels. this has to be done first, so that we can determine the left margin to leave according to the
