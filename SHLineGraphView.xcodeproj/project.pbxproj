@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F259AE0018DE03060070E137 /* SHRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = F259ADFF18DE03060070E137 /* SHRootController.m */; };
+		F266044118DDF5210084DCEF /* SHPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = F266044018DDF5210084DCEF /* SHPlot.m */; };
 		F2F9135B18D3E8B8002D6919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F9135A18D3E8B8002D6919 /* Foundation.framework */; };
 		F2F9135D18D3E8B8002D6919 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F9135C18D3E8B8002D6919 /* CoreGraphics.framework */; };
 		F2F9135F18D3E8B8002D6919 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F9135E18D3E8B8002D6919 /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F259ADFE18DE03060070E137 /* SHRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRootController.h; sourceTree = "<group>"; };
+		F259ADFF18DE03060070E137 /* SHRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRootController.m; sourceTree = "<group>"; };
+		F266043F18DDF5210084DCEF /* SHPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHPlot.h; sourceTree = "<group>"; };
+		F266044018DDF5210084DCEF /* SHPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHPlot.m; sourceTree = "<group>"; };
 		F2F9135718D3E8B8002D6919 /* SHLineGraphView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHLineGraphView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F9135A18D3E8B8002D6919 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F2F9135C18D3E8B8002D6919 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +126,8 @@
 				F2F9136A18D3E8B8002D6919 /* SHAppDelegate.m */,
 				F2F9136C18D3E8B8002D6919 /* Images.xcassets */,
 				F2F9136118D3E8B8002D6919 /* Supporting Files */,
+				F259ADFE18DE03060070E137 /* SHRootController.h */,
+				F259ADFF18DE03060070E137 /* SHRootController.m */,
 			);
 			path = SHLineGraphView;
 			sourceTree = "<group>";
@@ -162,6 +170,8 @@
 				F2F9139018D40467002D6919 /* PopoverViewCompatibility.h */,
 				F2F9138A18D403CE002D6919 /* SHLineGraphView.h */,
 				F2F9138B18D403CE002D6919 /* SHLineGraphView.m */,
+				F266043F18DDF5210084DCEF /* SHPlot.h */,
+				F266044018DDF5210084DCEF /* SHPlot.m */,
 			);
 			path = SHLineGraphView;
 			sourceTree = "<group>";
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F266044118DDF5210084DCEF /* SHPlot.m in Sources */,
 				F2F9136718D3E8B8002D6919 /* main.m in Sources */,
+				F259AE0018DE03060070E137 /* SHRootController.m in Sources */,
 				F2F9136B18D3E8B8002D6919 /* SHAppDelegate.m in Sources */,
 				F2F9139118D40467002D6919 /* PopoverView.m in Sources */,
 				F2F9138C18D403CE002D6919 /* SHLineGraphView.m in Sources */,
@@ -468,6 +480,7 @@
 				F2F9138518D3E8B8002D6919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2F9138618D3E8B8002D6919 /* Build configuration list for PBXNativeTarget "SHLineGraphViewTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +489,7 @@
 				F2F9138818D3E8B8002D6919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

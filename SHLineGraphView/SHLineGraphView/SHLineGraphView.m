@@ -23,6 +23,8 @@
 #import "SHLineGraphView.h"
 #import <math.h>
 #import "PopoverView.h"
+#import "SHPlot.h"
+#import <objc/runtime.h>
 
 #define BOTTOM_MARGIN_TO_LEAVE 30
 #define TOP_MARGIN_TO_LEAVE 30
@@ -32,38 +34,78 @@
 
 #define FONT_WITH_SIZE(val) [UIFont fontWithName:@"TrebuchetMS" size:val]
 
+#define kAssociatedPlotObject @"kAssociatedPlotObject"
+
 
 @implementation SHLineGraphView
-{
-  CGPoint *xPoints;
+
+- (instancetype)init {
+  if((self = [super init])) {
+    [self loadDefaultTheme];
+  }
+  return self;
 }
+
+- (void)awakeFromNib
+{
+  [self loadDefaultTheme];
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+      [self loadDefaultTheme];
     }
     return self;
 }
 
-- (void)setupTheView {
+- (void)loadDefaultTheme {
+  _themeAttributes = @{
+                           kXAxisLabelColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
+                           kXAxisLabelFontKey : [UIFont fontWithName:@"TrebuchetMS" size:10],
+                           kYAxisLabelColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
+                           kYAxisLabelFontKey : [UIFont fontWithName:@"TrebuchetMS" size:10],
+                           kPlotBackgroundLineColorKye : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4]
+                           };
+}
+
+- (void)addPlot:(SHPlot *)newPlot;
+{
+  if(nil == newPlot) {
+    return;
+  }
+  
+  if(_plots == nil){
+    _plots = [NSMutableArray array];
+  }
+  [_plots addObject:newPlot];
+}
+
+- (void)setupTheView
+{
+  for(SHPlot *plot in _plots) {
+    [self drawPlotWithPlot:plot];
+  }
+}
+
+- (void)drawPlotWithPlot:(SHPlot *)plot {
   //draw x-labels
-  [self drawXLabels];
+  [self drawXLabels:plot];
   
   //draw y-axis labels
-  [self drawYLabels];
+  [self drawYLabels:plot];
   
   //draw the grey lines
-  [self drawLines];
+  [self drawLines:plot];
   
   /*
    actual plot drawing
    */
-  [self drawPlot];
-  
+  [self drawPlot:plot];
 }
 
-- (int)getIndexForValue:(NSNumber *)value {
+- (int)getIndexForValue:(NSNumber *)value forPlot:(SHPlot *)plot {
   for(int i=0; i< _xAxisValues.count; i++) {
     NSDictionary *d = [_xAxisValues objectAtIndex:i];
     __block BOOL foundValue = NO;
@@ -81,24 +123,27 @@
   return -1;
 }
 
-- (void)drawPlot {
+- (void)drawPlot:(SHPlot *)plot {
+  
+  NSDictionary *theme = plot.plotThemeAttributes;
+  
   //
   CAShapeLayer *backgroundLayer = [CAShapeLayer layer];
   backgroundLayer.frame = self.bounds;
-  backgroundLayer.fillColor = [UIColor colorWithRed:0.47 green:0.75 blue:0.78 alpha:0.5].CGColor;
+  backgroundLayer.fillColor = ((UIColor *)theme[kPlotFillColorKey]).CGColor;
   backgroundLayer.backgroundColor = [UIColor clearColor].CGColor;
   [backgroundLayer setStrokeColor:[UIColor clearColor].CGColor];
-  [backgroundLayer setLineWidth:2];
+  [backgroundLayer setLineWidth:((NSNumber *)theme[kPlotStrokeWidthKey]).intValue];
 
   CGMutablePathRef backgroundPath = CGPathCreateMutable();
 
   //
   CAShapeLayer *circleLayer = [CAShapeLayer layer];
   circleLayer.frame = self.bounds;
-  circleLayer.fillColor = [UIColor colorWithRed:0.18 green:0.36 blue:0.41 alpha:1].CGColor;
+  circleLayer.fillColor = ((UIColor *)theme[kPlotPointFillColorKey]).CGColor;
   circleLayer.backgroundColor = [UIColor clearColor].CGColor;
-  [circleLayer setStrokeColor:[UIColor colorWithRed:0.18 green:0.36 blue:0.41 alpha:1].CGColor];
-  [circleLayer setLineWidth:2];
+  [circleLayer setStrokeColor:((UIColor *)theme[kPlotPointFillColorKey]).CGColor];
+  [circleLayer setLineWidth:((NSNumber *)theme[kPlotStrokeWidthKey]).intValue];
   
   CGMutablePathRef circlePath = CGPathCreateMutable();
 
@@ -107,8 +152,8 @@
   graphLayer.frame = self.bounds;
   graphLayer.fillColor = [UIColor clearColor].CGColor;
   graphLayer.backgroundColor = [UIColor clearColor].CGColor;
-  [graphLayer setStrokeColor:[UIColor colorWithRed:0.18 green:0.36 blue:0.41 alpha:1].CGColor];
-  [graphLayer setLineWidth:2];
+  [graphLayer setStrokeColor:((UIColor *)theme[kPlotStrokeColorKey]).CGColor];
+  [graphLayer setLineWidth:((NSNumber *)theme[kPlotStrokeWidthKey]).intValue];
   
   CGMutablePathRef graphPath = CGPathCreateMutable();
   
@@ -116,8 +161,7 @@
   double yIntervalValue = yRange / INTERVAL_COUNT;
   
   //logic to fill the graph path, ciricle path, background path.
-  //230 - ((230 / 58) * 22)
-  [_plottingValues enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+  [plot.plottingValues enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
     NSDictionary *dic = (NSDictionary *)obj;
     
     __block NSNumber *_key = nil;
@@ -128,30 +172,30 @@
       _value = (NSNumber *)obj;
     }];
     
-    int xIndex = [self getIndexForValue:_key];
+    int xIndex = [self getIndexForValue:_key forPlot:plot];
     
     //x value
     double height = self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE;
     double y = height - ((height / ([_yAxisRange intValue] + yIntervalValue)) * [_value doubleValue]);
-    (xPoints[xIndex]).x = ceil((xPoints[xIndex]).x);
-    (xPoints[xIndex]).y = ceil(y);
+    (plot.xPoints[xIndex]).x = ceil((plot.xPoints[xIndex]).x);
+    (plot.xPoints[xIndex]).y = ceil(y);
   }];
   
   //move to initial point for path and background.
-  CGPathMoveToPoint(graphPath, NULL, LEFT_MARGIN_TO_LEAVE, xPoints[0].y);
-  CGPathMoveToPoint(backgroundPath, NULL, LEFT_MARGIN_TO_LEAVE, xPoints[0].y);
+  CGPathMoveToPoint(graphPath, NULL, LEFT_MARGIN_TO_LEAVE, plot.xPoints[0].y);
+  CGPathMoveToPoint(backgroundPath, NULL, LEFT_MARGIN_TO_LEAVE, plot.xPoints[0].y);
   
   int count = _xAxisValues.count;
   for(int i=0; i< count; i++){
-    CGPoint point = xPoints[i];
+    CGPoint point = plot.xPoints[i];
     CGPathAddLineToPoint(graphPath, NULL, point.x, point.y);
     CGPathAddLineToPoint(backgroundPath, NULL, point.x, point.y);
     CGPathAddEllipseInRect(circlePath, NULL, CGRectMake(point.x - 5, point.y - 5, 10, 10));
   }
   
   //move to initial point for path and background.
-  CGPathAddLineToPoint(graphPath, NULL, LEFT_MARGIN_TO_LEAVE + PLOT_WIDTH, xPoints[count -1].y);
-  CGPathAddLineToPoint(backgroundPath, NULL, LEFT_MARGIN_TO_LEAVE + PLOT_WIDTH, xPoints[count - 1].y);
+  CGPathAddLineToPoint(graphPath, NULL, LEFT_MARGIN_TO_LEAVE + PLOT_WIDTH, plot.xPoints[count -1].y);
+  CGPathAddLineToPoint(backgroundPath, NULL, LEFT_MARGIN_TO_LEAVE + PLOT_WIDTH, plot.xPoints[count - 1].y);
   
   //additional points for background.
   CGPathAddLineToPoint(backgroundPath, NULL, LEFT_MARGIN_TO_LEAVE + PLOT_WIDTH, self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE);
@@ -179,66 +223,37 @@
 	
 	NSUInteger count2 = _xAxisValues.count;
 	for(int i=0; i< count2; i++){
-		CGPoint point = xPoints[i];
+		CGPoint point = plot.xPoints[i];
 		UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
 		btn.backgroundColor = [UIColor clearColor];
 		btn.tag = i;
 		btn.frame = CGRectMake(point.x - 20, point.y - 20, 40, 40);
 		[btn addTarget:self action:@selector(clicked:) forControlEvents:UIControlEventTouchUpInside];
-		[self addSubview:btn];
+		objc_setAssociatedObject(btn, kAssociatedPlotObject, plot, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    
+    [self addSubview:btn];
 	}
 }
 
-- (void)clicked:(id)sender
-{
-	@try {
-		UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 120, 30)];
-		lbl.backgroundColor = [UIColor clearColor];
-		NSUInteger tag = ((UIButton *)sender).tag;
-		NSString *text = [_plottingPointsLabels objectAtIndex:tag];
-		
-		lbl.text = text;
-		lbl.textColor = [UIColor whiteColor];
-		lbl.textAlignment = NSTextAlignmentCenter;
-		lbl.font = FONT_WITH_SIZE(18);
-		[lbl sizeToFit];
-		lbl.frame = CGRectMake(0, 0, lbl.frame.size.width + 5, lbl.frame.size.height);
-		
-		CGPoint point =((UIButton *)sender).center;
-		point.y -= 15;
-		
-		dispatch_async(dispatch_get_main_queue(), ^{
-			[PopoverView showPopoverAtPoint:point
-									 inView:self
-							withContentView:lbl
-								   delegate:nil];
-		});
-	}
-	@catch (NSException *exception) {
-		NSLog(@"plotting label is not available for this point");
-	}
-}
-
-
-- (void)drawXLabels {
+- (void)drawXLabels:(SHPlot *)plot {
   int xIntervalCount = _xAxisValues.count;
   double xIntervalInPx = PLOT_WIDTH / _xAxisValues.count;
   
   //initialize actual x points values where the circle will be
-  xPoints = calloc(sizeof(CGPoint), xIntervalCount);
+  plot.xPoints = calloc(sizeof(CGPoint), xIntervalCount);
   
   for(int i=0; i < xIntervalCount; i++){
     CGPoint currentLabelPoint = CGPointMake((xIntervalInPx * i) + LEFT_MARGIN_TO_LEAVE, self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE);
     CGRect xLabelFrame = CGRectMake(currentLabelPoint.x , currentLabelPoint.y, xIntervalInPx, BOTTOM_MARGIN_TO_LEAVE);
     
-    xPoints[i] = CGPointMake((int) xLabelFrame.origin.x + (xLabelFrame.size.width /2) , (int) 0);
+    plot.xPoints[i] = CGPointMake((int) xLabelFrame.origin.x + (xLabelFrame.size.width /2) , (int) 0);
     
-    UILabel *yAxisLabel = [[UILabel alloc] initWithFrame:xLabelFrame];
-    yAxisLabel.backgroundColor = [UIColor clearColor];
-    yAxisLabel.font = FONT_WITH_SIZE(10);
+    UILabel *xAxisLabel = [[UILabel alloc] initWithFrame:xLabelFrame];
+    xAxisLabel.backgroundColor = [UIColor clearColor];
+    xAxisLabel.font = (UIFont *)_themeAttributes[kXAxisLabelFontKey];
     
-    yAxisLabel.textColor = [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4];
-    yAxisLabel.textAlignment = NSTextAlignmentCenter;
+    xAxisLabel.textColor = (UIColor *)_themeAttributes[kXAxisLabelColorKey];
+    xAxisLabel.textAlignment = NSTextAlignmentCenter;
     
     NSDictionary *dic = [_xAxisValues objectAtIndex:i];
     __block NSString *xLabel = nil;
@@ -246,16 +261,16 @@
       xLabel = (NSString *)obj;
     }];
     
-    yAxisLabel.text = [NSString stringWithFormat:@"%@", xLabel];
-    [self addSubview:yAxisLabel];
-    
+    xAxisLabel.text = [NSString stringWithFormat:@"%@", xLabel];
+    [self addSubview:xAxisLabel];
   }
 }
 
-- (void)drawYLabels {
+- (void)drawYLabels:(SHPlot *)plot {
   double yRange = [_yAxisRange doubleValue]; // this value will be in dollars
   double yIntervalValue = yRange / INTERVAL_COUNT;
   double intervalInPx = (self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE ) / (INTERVAL_COUNT +1);
+  
   for(int i= INTERVAL_COUNT + 1; i >= 0; i--){
     CGPoint currentLinePoint = CGPointMake(LEFT_MARGIN_TO_LEAVE, i * intervalInPx);
     CGRect lableFrame = CGRectMake(0, currentLinePoint.y - (intervalInPx / 2), 100, intervalInPx);
@@ -263,8 +278,8 @@
     if(i != 0) {
       UILabel *yAxisLabel = [[UILabel alloc] initWithFrame:lableFrame];
       yAxisLabel.backgroundColor = [UIColor clearColor];
-      yAxisLabel.font = FONT_WITH_SIZE(10);
-      yAxisLabel.textColor = [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4];
+      yAxisLabel.font = (UIFont *)_themeAttributes[kYAxisLabelFontKey];
+      yAxisLabel.textColor = (UIColor *)_themeAttributes[kYAxisLabelColorKey];
       yAxisLabel.textAlignment = NSTextAlignmentCenter;
       float val = (yIntervalValue * (10 - i));
       if(val > 0){
@@ -277,13 +292,13 @@
   }
 }
 
-- (void)drawLines {
+- (void)drawLines:(SHPlot *)plot {
 
   CAShapeLayer *linesLayer = [CAShapeLayer layer];
   linesLayer.frame = self.bounds;
   linesLayer.fillColor = [UIColor clearColor].CGColor;
   linesLayer.backgroundColor = [UIColor clearColor].CGColor;
-  linesLayer.strokeColor = [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4].CGColor;
+  linesLayer.strokeColor = ((UIColor *)_themeAttributes[kPlotBackgroundLineColorKye]).CGColor;
   linesLayer.lineWidth = 1;
   
   CGMutablePathRef linesPath = CGPathCreateMutable();
@@ -301,8 +316,47 @@
   [self.layer addSublayer:linesLayer];
 }
 
-- (void)awakeFromNib {
-  
+#pragma mark - UIButton event methods
+
+- (void)clicked:(id)sender
+{
+	@try {
+		UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 120, 30)];
+		lbl.backgroundColor = [UIColor clearColor];
+    UIButton *btn = (UIButton *)sender;
+		NSUInteger tag = btn.tag;
+    
+    SHPlot *_plot = objc_getAssociatedObject(btn, kAssociatedPlotObject);
+		NSString *text = [_plot.plottingPointsLabels objectAtIndex:tag];
+		
+		lbl.text = text;
+		lbl.textColor = [UIColor whiteColor];
+		lbl.textAlignment = NSTextAlignmentCenter;
+		lbl.font = (UIFont *)_plot.plotThemeAttributes[kPlotPointValueFontKey];
+		[lbl sizeToFit];
+		lbl.frame = CGRectMake(0, 0, lbl.frame.size.width + 5, lbl.frame.size.height);
+		
+		CGPoint point =((UIButton *)sender).center;
+		point.y -= 15;
+		
+		dispatch_async(dispatch_get_main_queue(), ^{
+			[PopoverView showPopoverAtPoint:point
+                               inView:self
+                      withContentView:lbl
+                             delegate:nil];
+		});
+	}
+	@catch (NSException *exception) {
+		NSLog(@"plotting label is not available for this point");
+	}
 }
+
+#pragma mark - Theme Key Extern Keys
+
+NSString *const kXAxisLabelColorKey         = @"kXAxisLabelColorKey";
+NSString *const kXAxisLabelFontKey          = @"kXAxisLabelFontKey";
+NSString *const kYAxisLabelColorKey         = @"kYAxisLabelColorKey";
+NSString *const kYAxisLabelFontKey          = @"kYAxisLabelFontKey";
+NSString *const kPlotBackgroundLineColorKye = @"kPlotBackgroundLineColorKye";
 
 @end

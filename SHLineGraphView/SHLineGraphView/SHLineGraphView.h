@@ -22,15 +22,51 @@
 
 #import <UIKit/UIKit.h>
 
+@class SHPlot;
+
 @interface SHLineGraphView : UIView
 
 @property (nonatomic, strong) NSArray *xAxisValues;
-@property (nonatomic, strong) NSArray *plottingValues;
 @property (nonatomic, strong) NSNumber *yAxisRange;
 @property (nonatomic, strong) NSString *yAxisSuffix;
 
-@property (nonatomic, strong) NSArray *plottingPointsLabels;
+/**
+ *  readyonly dictionary that stores all the plots in the graph.
+ */
+@property (nonatomic, readonly, strong) NSMutableArray *plots;
 
+/**
+ *  theme attributes dictionary. you can specify graph theme releated attributes in this dictionary.
+ */
+@property (nonatomic, strong) NSDictionary *themeAttributes;
+
+- (void)addPlot:(SHPlot *)newPlot;
 - (void)setupTheView;
+
+
+/**
+ *  x-axis label color key. use this to define the x-axis color of the plot (UIColor*)
+ */
+UIKIT_EXTERN NSString *const kXAxisLabelColorKey;
+
+/**
+ *  x-axis label font key. use this to define the font of the x-axis labels. (UIFont*)
+ */
+UIKIT_EXTERN NSString *const kXAxisLabelFontKey;
+
+/**
+ *  y-axis label color key. use this to define the y-axis label color of the plot (UIColor*)
+ */
+UIKIT_EXTERN NSString *const kYAxisLabelColorKey;
+
+/**
+ *  y-axis label font key. use this to define the font of the y-axis labels. (UIFont*)
+ */
+UIKIT_EXTERN NSString *const kYAxisLabelFontKey;
+
+/**
+ *  plot background line stroke color key. use this to define the stroke color of the background lines in plot (UIColor*)
+ */
+UIKIT_EXTERN NSString *const kPlotBackgroundLineColorKye;
 
 @end
