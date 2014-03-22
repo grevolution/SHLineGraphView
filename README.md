@@ -6,9 +6,18 @@ SHLineGraphView
 [![Build Status](https://travis-ci.org/grevolution/SHLineGraphView.svg?branch=master)](https://travis-ci.org/grevolution/SHLineGraphView)
 
 ![animated image](https://raw.github.com/grevolution/SHLineGraphView/master/wiki-images/1-anim.gif)
+
+- Single Filled Graph
 ![image-1](https://raw.github.com/grevolution/SHLineGraphView/master/wiki-images/1.png)
+
+- Single Unfilled Graph
 ![image-2](https://raw.github.com/grevolution/SHLineGraphView/master/wiki-images/2.png)
+
+- Multiple Unfilled Graph
 ![image-3](https://raw.github.com/grevolution/SHLineGraphView/master/wiki-images/3.png)
+
+- Multiple filled Graph
+![image-4](https://raw.github.com/grevolution/SHLineGraphView/master/wiki-images/4.png)
 
 
 ##How To Use It
