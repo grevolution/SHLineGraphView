@@ -134,6 +134,9 @@ SHLineGraphView
   [self.view addSubview:_lineGraph];
 ```
 
+- Single Filled Graph
+![image-1](https://raw.github.com/grevolution/SHLineGraphView/master/wiki-images/1.png)
+
 ##Contact Me
 
 Shan Ul Haq (http://grevolution.me)
