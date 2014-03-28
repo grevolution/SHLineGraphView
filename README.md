@@ -7,13 +7,11 @@ SHLineGraphView
 
 
 ###v1.0.6 Release Notes
-======================
-
+-----------------------
 - fixed issue [#1](https://github.com/grevolution/SHLineGraphView/issues/1)
 - fixed issue [#2](https://github.com/grevolution/SHLineGraphView/issues/2)
 - changed y-axis label side margins from internal constant to a customisable SHLineGraph theme key [#3](https://github.com/grevolution/SHLineGraphView/issues/3)
-
-======================
+-----------------------
 
 
 ![animated image](https://raw.github.com/grevolution/SHLineGraphView/master/wiki-images/1-anim.gif)
