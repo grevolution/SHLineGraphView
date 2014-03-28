@@ -94,6 +94,12 @@ UIKIT_EXTERN NSString *const kYAxisLabelColorKey;
 UIKIT_EXTERN NSString *const kYAxisLabelFontKey;
 
 /**
+ *  y-axis label side margin key. use this to define the font of the y-axis labels side margin. the value will
+ *  be equally divided into the both sides of the label. (NSNumber*)
+ */
+UIKIT_EXTERN NSString *const kYAxisLabelSideMarginsKey;
+
+/**
  *  plot background line stroke color key. use this to define the stroke color of the background lines in plot (UIColor*)
  */
 UIKIT_EXTERN NSString *const kPlotBackgroundLineColorKye;

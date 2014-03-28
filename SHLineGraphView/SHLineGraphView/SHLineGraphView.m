@@ -29,7 +29,6 @@
 #define BOTTOM_MARGIN_TO_LEAVE 30.0
 #define TOP_MARGIN_TO_LEAVE 30.0
 #define INTERVAL_COUNT 9
-#define Y_AXIS_LABEL_MARGIN 10.0
 #define PLOT_WIDTH (self.bounds.size.width - _leftMarginToLeave)
 
 #define kAssociatedPlotObject @"kAssociatedPlotObject"
@@ -66,6 +65,7 @@
                            kXAxisLabelFontKey : [UIFont fontWithName:@"TrebuchetMS" size:10],
                            kYAxisLabelColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
                            kYAxisLabelFontKey : [UIFont fontWithName:@"TrebuchetMS" size:10],
+                           kYAxisLabelSideMarginsKey : @10,
                            kPlotBackgroundLineColorKye : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4]
                            };
 }
@@ -306,7 +306,7 @@
     }
   }
   
-  _leftMarginToLeave = maxWidth + Y_AXIS_LABEL_MARGIN;
+  _leftMarginToLeave = maxWidth + [_themeAttributes[kYAxisLabelSideMarginsKey] doubleValue];
   
   for( UILabel *l in labelArray) {
     CGSize newSize = CGSizeMake(_leftMarginToLeave, l.frame.size.height);
@@ -381,6 +381,7 @@ NSString *const kXAxisLabelColorKey         = @"kXAxisLabelColorKey";
 NSString *const kXAxisLabelFontKey          = @"kXAxisLabelFontKey";
 NSString *const kYAxisLabelColorKey         = @"kYAxisLabelColorKey";
 NSString *const kYAxisLabelFontKey          = @"kYAxisLabelFontKey";
+NSString *const kYAxisLabelSideMarginsKey   = @"kYAxisLabelSideMarginsKey";
 NSString *const kPlotBackgroundLineColorKye = @"kPlotBackgroundLineColorKye";
 
 @end
