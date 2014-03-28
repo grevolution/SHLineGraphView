@@ -179,7 +179,7 @@
     
     //x value
     double height = self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE;
-    double y = height - ((height / ([_yAxisRange intValue] + yIntervalValue)) * [_value doubleValue]);
+    double y = height - ((height / ([_yAxisRange doubleValue] + yIntervalValue)) * [_value doubleValue]);
     (plot.xPoints[xIndex]).x = ceil((plot.xPoints[xIndex]).x);
     (plot.xPoints[xIndex]).y = ceil(y);
   }];
@@ -328,7 +328,7 @@
   CGMutablePathRef linesPath = CGPathCreateMutable();
   
   double intervalInPx = (self.bounds.size.height - BOTTOM_MARGIN_TO_LEAVE) / (INTERVAL_COUNT + 1);
-  for(int i= INTERVAL_COUNT + 1; i >=0; i--){
+  for(int i= INTERVAL_COUNT + 1; i > 0; i--){
     
     CGPoint currentLinePoint = CGPointMake(_leftMarginToLeave, (i * intervalInPx));
     
