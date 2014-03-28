@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         	= "SHLineGraphView"
-  s.version      	= "1.0.5"
+  s.version      	= "1.0.6"
   s.summary      	= "`SHLineGraphView` is a simple and efficient reusable UIView subview which you can use to create line graphs."
 
   s.description  	= <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       	= { "Shan Ul Haq" => "g@grevolution.me" }
 
   s.platform     	= :ios
-  s.source       	= { :git => "https://github.com/grevolution/SHLineGraphView.git", :tag => "1.0.5" }
+  s.source       	= { :git => "https://github.com/grevolution/SHLineGraphView.git", :tag => "1.0.6" }
 
   s.requires_arc	= true
   s.source_files  	= 'SHLineGraphView/SHLineGraphView/*.{h,m}'
