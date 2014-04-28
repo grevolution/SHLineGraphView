@@ -102,6 +102,6 @@ UIKIT_EXTERN NSString *const kYAxisLabelSideMarginsKey;
 /**
  *  plot background line stroke color key. use this to define the stroke color of the background lines in plot (UIColor*)
  */
-UIKIT_EXTERN NSString *const kPlotBackgroundLineColorKye;
+UIKIT_EXTERN NSString *const kPlotBackgroundLineColorKey;
 
 @end

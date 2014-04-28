@@ -66,7 +66,7 @@
                            kYAxisLabelColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
                            kYAxisLabelFontKey : [UIFont fontWithName:@"TrebuchetMS" size:10],
                            kYAxisLabelSideMarginsKey : @10,
-                           kPlotBackgroundLineColorKye : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4]
+                           kPlotBackgroundLineColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4]
                            };
 }
 
@@ -322,7 +322,7 @@
   linesLayer.frame = self.bounds;
   linesLayer.fillColor = [UIColor clearColor].CGColor;
   linesLayer.backgroundColor = [UIColor clearColor].CGColor;
-  linesLayer.strokeColor = ((UIColor *)_themeAttributes[kPlotBackgroundLineColorKye]).CGColor;
+  linesLayer.strokeColor = ((UIColor *)_themeAttributes[kPlotBackgroundLineColorKey]).CGColor;
   linesLayer.lineWidth = 1;
   
   CGMutablePathRef linesPath = CGPathCreateMutable();
@@ -382,6 +382,6 @@ NSString *const kXAxisLabelFontKey          = @"kXAxisLabelFontKey";
 NSString *const kYAxisLabelColorKey         = @"kYAxisLabelColorKey";
 NSString *const kYAxisLabelFontKey          = @"kYAxisLabelFontKey";
 NSString *const kYAxisLabelSideMarginsKey   = @"kYAxisLabelSideMarginsKey";
-NSString *const kPlotBackgroundLineColorKye = @"kPlotBackgroundLineColorKye";
+NSString *const kPlotBackgroundLineColorKey = @"kPlotBackgroundLineColorKey";
 
 @end
