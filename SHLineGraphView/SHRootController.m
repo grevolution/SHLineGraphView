@@ -45,7 +45,8 @@
                                      kYAxisLabelColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
                                      kYAxisLabelFontKey : [UIFont fontWithName:@"TrebuchetMS" size:10],
                                      kYAxisLabelSideMarginsKey : @20,
-                                     kPlotBackgroundLineColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4]
+                                     kPlotBackgroundLineColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
+                                     kDotSizeKey : @5
                                      };
   _lineGraph.themeAttributes = _themeAttributes;
   

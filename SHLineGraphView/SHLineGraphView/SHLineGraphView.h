@@ -104,4 +104,9 @@ UIKIT_EXTERN NSString *const kYAxisLabelSideMarginsKey;
  */
 UIKIT_EXTERN NSString *const kPlotBackgroundLineColorKey;
 
+/**
+ *  size of the dot being drawing for each data point
+ */
+UIKIT_EXTERN NSString *const kDotSizeKey;
+
 @end
