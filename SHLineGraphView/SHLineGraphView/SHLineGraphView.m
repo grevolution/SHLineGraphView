@@ -66,7 +66,8 @@
                            kYAxisLabelColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
                            kYAxisLabelFontKey : [UIFont fontWithName:@"TrebuchetMS" size:10],
                            kYAxisLabelSideMarginsKey : @10,
-                           kPlotBackgroundLineColorKye : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4]
+                           kPlotBackgroundLineColorKey : [UIColor colorWithRed:0.48 green:0.48 blue:0.49 alpha:0.4],
+                           kDotSizeKey : @10.0
                            };
 }
 
@@ -193,7 +194,8 @@
     CGPoint point = plot.xPoints[i];
     CGPathAddLineToPoint(graphPath, NULL, point.x, point.y);
     CGPathAddLineToPoint(backgroundPath, NULL, point.x, point.y);
-    CGPathAddEllipseInRect(circlePath, NULL, CGRectMake(point.x - 5, point.y - 5, 10, 10));
+    CGFloat dotsSize = [_themeAttributes[kDotSizeKey] floatValue];
+    CGPathAddEllipseInRect(circlePath, NULL, CGRectMake(point.x - dotsSize/2.0f, point.y - dotsSize/2.0f, dotsSize, dotsSize));
   }
   
   //move to initial point for path and background.
@@ -228,6 +230,7 @@
 	for(int i=0; i< count2; i++){
 		CGPoint point = plot.xPoints[i];
 		UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+        
 		btn.backgroundColor = [UIColor clearColor];
 		btn.tag = i;
 		btn.frame = CGRectMake(point.x - 20, point.y - 20, 40, 40);
@@ -322,7 +325,7 @@
   linesLayer.frame = self.bounds;
   linesLayer.fillColor = [UIColor clearColor].CGColor;
   linesLayer.backgroundColor = [UIColor clearColor].CGColor;
-  linesLayer.strokeColor = ((UIColor *)_themeAttributes[kPlotBackgroundLineColorKye]).CGColor;
+  linesLayer.strokeColor = ((UIColor *)_themeAttributes[kPlotBackgroundLineColorKey]).CGColor;
   linesLayer.lineWidth = 1;
   
   CGMutablePathRef linesPath = CGPathCreateMutable();
@@ -382,6 +385,7 @@ NSString *const kXAxisLabelFontKey          = @"kXAxisLabelFontKey";
 NSString *const kYAxisLabelColorKey         = @"kYAxisLabelColorKey";
 NSString *const kYAxisLabelFontKey          = @"kYAxisLabelFontKey";
 NSString *const kYAxisLabelSideMarginsKey   = @"kYAxisLabelSideMarginsKey";
-NSString *const kPlotBackgroundLineColorKye = @"kPlotBackgroundLineColorKye";
+NSString *const kPlotBackgroundLineColorKey = @"kPlotBackgroundLineColorKey";
+NSString *const kDotSizeKey                 = @"kDotSizeKey";
 
 @end
