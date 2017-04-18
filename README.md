@@ -20,13 +20,13 @@ SHLineGraphView
 ![image-4](https://raw.github.com/grevolution/SHLineGraphView/master/wiki-images/4.png)
 
 
-###v1.0.6 Release Notes
+### v1.0.6 Release Notes
 - fixed issue [#1](https://github.com/grevolution/SHLineGraphView/issues/1)
 - fixed issue [#2](https://github.com/grevolution/SHLineGraphView/issues/2)
 - changed y-axis label side margins from internal constant to a customisable SHLineGraph theme key [#3](https://github.com/grevolution/SHLineGraphView/issues/3)
 
 
-##How To Use It
+## How To Use It
 
 ```objective-c
   //initate the graph view
@@ -143,7 +143,7 @@ SHLineGraphView
 - Single Filled Graph
 ![image-1](https://raw.github.com/grevolution/SHLineGraphView/master/wiki-images/1.png)
 
-##Contact Me
+## Contact Me
 
 Shan Ul Haq (http://grevolution.me)
 
@@ -153,6 +153,6 @@ Shan Ul Haq (http://grevolution.me)
 
 - http://twitter.com/gfg5tek
 
-##License
+## License
 
 `SHLineGraphView` is available under the MIT license. See the LICENSE file for more info.
